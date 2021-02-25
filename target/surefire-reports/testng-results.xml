@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9410" started-at="2021-02-24T09:27:15Z" finished-at="2021-02-24T09:27:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9410" started-at="2021-02-24T09:27:15Z" finished-at="2021-02-24T09:27:25Z">
+      <class name="Github.Maven.AppTest">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:Github.Maven.AppTest@12f41634]" name="testApp" duration-ms="5" started-at="2021-02-24T09:27:15Z" finished-at="2021-02-24T09:27:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- Github.Maven.AppTest -->
+      <class name="test.Testcase1">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:test.Testcase1@13c27452]" name="LaunchBrowser" is-config="true" duration-ms="3712" started-at="2021-02-24T09:27:15Z" finished-at="2021-02-24T09:27:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:test.Testcase1@13c27452]" name="LoginTest" duration-ms="5555" started-at="2021-02-24T09:27:19Z" finished-at="2021-02-24T09:27:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:test.Testcase1@13c27452]" name="CloseBrowser" is-config="true" duration-ms="71" started-at="2021-02-24T09:27:24Z" finished-at="2021-02-24T09:27:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- test.Testcase1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
